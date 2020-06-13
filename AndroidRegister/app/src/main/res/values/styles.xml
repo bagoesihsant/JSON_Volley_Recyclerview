@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Login Theme -->
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize The Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- App Bar Login Overlay Theme -->
+    <style name="AppThemeLogin.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <!-- Popup Login Overlay Theme -->
+    <style name="AppThemeLogin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Register Theme -->
+    <style name="AppThemeRegister" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize The Colors -->
+        <item name="colorPrimary">@color/colorPrimaryTwo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTwo</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- App Bar Register Overlay Theme -->
+    <style name="AppThemeRegister.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <!-- Popup Register Overlay Theme -->
+    <style name="AppThemeRegister.PopupOverlay" parent="Theme.AppCompat.Light"/>
+
+</resources>
